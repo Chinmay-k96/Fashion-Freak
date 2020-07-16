@@ -1,2 +1,2 @@
-# Ecommerce-App
+# Fashion-Freak
 Eccomerce app for online shopping
