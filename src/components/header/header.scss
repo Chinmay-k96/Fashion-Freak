@@ -4,11 +4,16 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  //position: fixed;
 
-  .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
+  .Logo{
+    padding-top: 20px;
+    padding-left: 60px;
+    height: 120px;
+    width: 270px;
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 
   .options {
@@ -21,6 +26,9 @@
     .option {
       padding: 10px 15px;
       cursor: pointer;
+      color: #E50914;
+      font-weight: bold;
+      font-size: large;
     }
   }
 }
