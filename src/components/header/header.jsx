@@ -17,6 +17,7 @@ const Header = ({ currentUser, hidden }) => (
   <div className='header'>
     <Link className='logo-container' to='/'>
       <img src={Logo} alt="Logo"  className="Logo"/>
+      F@$hion Fre@k
     </Link>
     <div className='options'>
       <Link className='option' to='/shop'>
