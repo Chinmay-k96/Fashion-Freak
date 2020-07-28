@@ -1,5 +1,5 @@
 .header {
-  height: 90px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -11,21 +11,21 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
   .Logo{
     padding-top: 0px;
     padding-left: 60px;
-    height: 90px;
-    width: 170px;
+    height: 80px;
+    width: 160px;
     position: absolute;
     left: 0;
     top: 0;
   }
 
   .logo-container{
-      padding-top: 30px;
-      padding-left: 170px;
+      padding-top: 25px;
+      padding-left: 160px;
       padding-bottom: 15px;
       cursor: pointer;
       color: #461252;
       font-weight: bold;
-      font-size: x-large;
+      font-size: 21px;
       font-family: 'Cinzel', serif;
   }
 

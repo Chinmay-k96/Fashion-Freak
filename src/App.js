@@ -1,4 +1,5 @@
 import React from 'react';
+import Particles from 'react-particles-js';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
@@ -15,6 +16,26 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
+
+
+const particleOptions = {
+  "particles": {
+      "number": {
+          "value": 150
+      },
+      "size": {
+          "value": 3
+      }
+  },
+  "interactivity": {
+      "events": {
+          "onhover": {
+              "enable": true,
+              "mode": "repulse"
+          }
+      }
+  }         
+}
 
 class App extends React.Component {
   
@@ -48,6 +69,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <Particles className='particles' params={particleOptions} />
         <Header/>
         <Switch>
           <Route exact path='/' component={HomePage} />
