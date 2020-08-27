@@ -5,32 +5,30 @@
   justify-content: space-between;
   margin-bottom: 25px;
   padding-right: 30px;
-  background-color: #fbb034;
-background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  background-color: #F5F5F1;
 
   .Logo{
-    padding-top: 0px;
-    padding-left: 60px;
+    padding-top: 2px;
+    padding-left: 40px;
     height: 80px;
-    width: 160px;
+    width: 220px;
     position: absolute;
     left: 0;
     top: 0;
   }
 
   .logo-container{
-      padding-top: 25px;
-      padding-left: 160px;
+      padding-top: 30px;
       padding-bottom: 15px;
       cursor: pointer;
-      color: #461252;
+      color: #C53F3F;
       font-weight: bold;
       font-size: 21px;
       font-family: 'Cinzel', serif;
   }
 
   .options {
-    width: 50%;
+    width: 83%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -39,8 +37,8 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
     .option {
       padding: 10px 15px;
       cursor: pointer;
-      color: #461252;
-      //font-weight: bold;
+      color: #C53F3F;
+      font-weight: bold;
       font-size: medium;
       font-family: 'Changa', sans-serif;
     }

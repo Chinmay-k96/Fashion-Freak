@@ -17,14 +17,22 @@ const Header = ({ currentUser, hidden }) => (
   <div className='header'>
     <Link className='logo-container' to='/'>
       <img src={Logo} alt="Logo"  className="Logo"/>
-      F@$hion Fre@k
     </Link>
     <div className='options'>
       <Link className='option' to='/shop'>
-        SHOP
+        MEN
       </Link>
       <Link className='option' to='/shop'>
-        CONTACT
+        WOMEN
+      </Link>
+      <Link className='option' to='/shop'>
+        KIDS
+      </Link>
+      <Link className='option' to='/shop'>
+        BRANDS
+      </Link>
+      <Link className='option' to='/shop'>
+        OFFERS
       </Link>
       {currentUser ? (
         <div className='option' onClick={() => auth.signOut()}>
