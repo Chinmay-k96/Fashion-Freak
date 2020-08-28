@@ -25,13 +25,10 @@ const Header = ({ currentUser, hidden }) => (
       <Link className='option' to='/shop'>
         WOMEN
       </Link>
-      <Link className='option' to='/shop'>
-        KIDS
-      </Link>
-      <Link className='option' to='/shop'>
+      <Link className='option' to=''>
         BRANDS
       </Link>
-      <Link className='option' to='/shop'>
+      <Link className='option' to=''>
         OFFERS
       </Link>
       {currentUser ? (
