@@ -19,10 +19,10 @@ const Header = ({ currentUser, hidden }) => (
       <img src={Logo} alt="Logo"  className="Logo"/>
     </Link>
     <div className='options'>
-      <Link className='option' to='/shop'>
+      <Link className='option' to='/shop/mens'>
         MEN
       </Link>
-      <Link className='option' to='/shop'>
+      <Link className='option' to='/shop/womens'>
         WOMEN
       </Link>
       <Link className='option' to=''>
